@@ -12,3 +12,4 @@ demean_age <- age - mean_age
 write.table(demean_age, file="age_demeaned.tsv", row.names=FALSE, col.names=FALSE, sep="\t")
 
 print("done!")
+
